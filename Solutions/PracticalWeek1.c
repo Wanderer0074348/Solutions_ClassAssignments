@@ -73,6 +73,42 @@ void question5()
     }
 }
 
+void question6()
+{
+    int n;
+    scanf("%d",&n)
+    int fact = 1;
+    for (int i = 1; i < n+1; i++)
+    {
+        fact *= i;
+    }
+    
+    return fact;
+}
+
+void question7()
+{
+    int n;
+    scanf("%d",&n)
+    int count = 0;
+    for (int i = 1; i < n+1; i++)
+    {
+        int count = 0;
+        
+        for (int num = 2; num <= i/2; num++)
+        {
+            if (i%num == 0){
+                count++;
+                break;
+            }
+        }
+        if (count==0 && i!=1){
+            printf("%d ",i);
+        }
+    } 
+    
+}
+
 int main(){
     question1();
     printf("************************************************\n");
