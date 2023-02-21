@@ -76,14 +76,14 @@ void question5()
 void question6()
 {
     int n;
-    scanf("%d",&n)
+    scanf("%d",&n);
     if (n<0)
     {
-        printf("Not possible to find the factorial of a negative number");
+        printf("Not possible to find the factorial of a negative number\n");
     }    
-    if (n == 0)
+    else if (n == 0)
     {
-        printf("The factorial of 0 is 1")
+        printf("The factorial of 0 is 1\n");
     }
     else
     {
@@ -99,7 +99,7 @@ void question6()
 void question7()
 {
     int n;
-    scanf("%d",&n)
+    scanf("%d",&n);
     int count = 0;
     for (int i = 1; i < n+1; i++)
     {
