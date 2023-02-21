@@ -44,6 +44,34 @@ void question4(){
     printf("%d\n",sum);
     
 }
+void question5()
+{
+    int x,y;
+    scanf("%d",&x);
+    scanf("%d",&x);
+    if (x>=0)
+    {
+        if (y>0)
+        {
+            printf("First Quadrant");
+        }
+        else if (y<0)
+        {
+            printf("fourth quadrant");
+        }
+    }
+    if (x<0)
+    {
+        if (y>=0)
+        {
+            printf("second Quadrant");
+        }
+        else if (y<0)
+        {
+            printf("third quadrant");
+        }
+    }
+}
 
 int main(){
     question1();
@@ -54,5 +82,6 @@ int main(){
     printf("************************************************\n");
     question4();
     printf("************************************************\n");
+    question5();
     return 0;
 }
