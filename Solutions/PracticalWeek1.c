@@ -119,6 +119,33 @@ void question7()
     
 }
 
+void question8()
+{
+    int n, reverse = 0, remainder, sumeven = 0, sumodd = 0, counteven = 0,countodd = 0;
+    printf("Enter an integer: ");
+    scanf("%d", &n);
+
+    while (n != 0) 
+    {
+        remainder = n % 10;
+        if (remainder%2==0)
+        {
+            counteven++;
+            sumeven+=remainder;
+        }
+        else
+        {
+            countodd++;
+            sumodd+=remainder;
+        }
+        reverse = reverse * 10 + remainder;
+        n /= 10;
+    }
+
+    printf("Reversed number = %d\n", reverse);
+    printf("Even Sum: %d, Odd Sum: %d\n", sumeven, sumodd);
+}
+
 int main(){
     question1();
     printf("************************************************\n");
