@@ -1,0 +1,1 @@
+Q) Write a c program to accept a coordinate point in a XY coordinate system and determine in which coordinate point lies
