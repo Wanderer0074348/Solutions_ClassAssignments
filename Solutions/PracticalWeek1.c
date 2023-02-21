@@ -77,13 +77,23 @@ void question6()
 {
     int n;
     scanf("%d",&n)
-    int fact = 1;
-    for (int i = 1; i < n+1; i++)
+    if (n<0)
     {
-        fact *= i;
+        printf("Not possible to find the factorial of a negative number");
+    }    
+    if (n == 0)
+    {
+        printf("The factorial of 0 is 1")
     }
-    
-    return fact;
+    else
+    {
+        int fact = 1;
+        for (int i = 1; i < n+1; i++)
+        {
+            fact *= i;
+        }   
+        printf("%d",fact);
+    }
 }
 
 void question7()
