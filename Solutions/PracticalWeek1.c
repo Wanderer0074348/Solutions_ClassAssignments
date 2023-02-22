@@ -144,6 +144,18 @@ void question8()
     printf("Even Numbers: %d, Odd Numbers: %d\n", counteven,countodd);
 } 
 
+void Question9(){
+    for (int r = 0; r <= 15; r++)
+    {
+        for (int c = 0; c <= 15; c++)
+        {
+            printf("(%d,%d)\t",r,c);
+        }
+        printf("\n");
+    }
+    
+}
+
 int main(){
     question1();
     printf("************************************************\n");
@@ -160,6 +172,8 @@ int main(){
     question7();
     printf("************************************************\n");
     question8();
+    printf("************************************************\n");
+    question9();
     printf("************************************************\n");
     return 0;
 }
