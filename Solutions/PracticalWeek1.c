@@ -145,11 +145,13 @@ void question8()
 } 
 
 void Question9(){
+    int count = 1;
     for (int r = 0; r <= 15; r++)
     {
         for (int c = 0; c <= 15; c++)
         {
-            printf("(%d,%d)\t",r,c);
+            printf("(%d)\t",count);
+            count++;    
         }
         printf("\n");
     }
