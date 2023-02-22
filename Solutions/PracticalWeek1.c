@@ -158,6 +158,28 @@ void Question9(){
     
 }
 
+void Question10(){
+    int x;
+    scanf("%d",&x);
+    for (int i = 1; i <= x; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    
+    for (int i = x-1; i >= 1; i--)
+    {
+        for (int j = i; j >= 1; j--)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
 int main(){
     question1();
     printf("************************************************\n");
@@ -176,6 +198,8 @@ int main(){
     question8();
     printf("************************************************\n");
     question9();
+    printf("************************************************\n");
+    question10();
     printf("************************************************\n");
     return 0;
 }
