@@ -24,3 +24,5 @@ Q) Find the number of prime numbers between two numbers
 Q) Find the sum of the even digits and odd digits in a given number
 
 Q) Create a Grid of numbers using nesting for loops
+
+Q) Create a Half Diamond
