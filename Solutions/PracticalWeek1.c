@@ -1,4 +1,5 @@
 #include<stdio.h>
+//Q)Write a C program to accept the marks obtained by a student in 5 courses and calculate the average and percentage. (Consider maximum marks in a course is 100).
 void question1()
 {
     int a,b,c,d,e;
@@ -10,7 +11,7 @@ void question1()
     scanf("%d",&e);
     printf("\nThe average score is %d: \nThe Percentage is %d%%\n",(a+b+c+d+e)/5,(a+b+c+d+e)*100/500);
 }
-
+//Q)Write a C program to accept the radius of the circle and find the area & perimeter of the circle
 void question2()
 {
     int rad;
@@ -22,6 +23,9 @@ void question2()
 
 }
 
+// Q)The total salary of any employee is a combination of basic, HRA, and allowance.
+//  The HRA is 40% of Basic. The basic and allowance will be accepted by the user.
+//  Write a C program to calculate the total salary and display it.
 void question3(){
     int basic,allowance;
     scanf("%d",&basic);
@@ -29,7 +33,11 @@ void question3(){
     float hra = basic*0.4;
     printf("The Total Salary is %f",hra+basic+allowance);
 }
-
+// Q)Write a C program to accept 4 digit number from the input device and perform the
+// sum of its digits.
+// example: Input:
+// 1234
+// output: 4 + 3+ 2 + 1 = 10
 void question4(){
     int num;
     scanf("%d",&num);
@@ -44,6 +52,9 @@ void question4(){
     printf("%d\n",sum);
     
 }
+
+//Q) Write a c program to accept a coordinate point in a XY coordinate system and determine in which coordinate point lies
+
 void question5()
 {
     int x,y;
@@ -73,6 +84,8 @@ void question5()
     }
 }
 
+
+// Q) Find the factorial of a number
 void question6()
 {
     int n;
@@ -96,6 +109,8 @@ void question6()
     }
 }
 
+
+// Q) Find the number of prime numbers between two numbers 
 void question7()
 {
     int n;
@@ -119,6 +134,7 @@ void question7()
     
 }
 
+// Q) Find the sum of the even digits and odd digits in a given number
 void question8()
 {
     int n, reverse = 0, remainder, sumeven = 0, sumodd = 0, counteven = 0,countodd = 0;
@@ -144,6 +160,7 @@ void question8()
     printf("Even Numbers: %d, Odd Numbers: %d\n", counteven,countodd);
 } 
 
+// Q) Create a Grid of numbers using nesting for loops
 void Question9(){
     int count = 1;
     for (int r = 0; r <= 15; r++)
@@ -158,6 +175,7 @@ void Question9(){
     
 }
 
+// Q) Create a Half Diamond
 void Question10(){
     int x;
     scanf("%d",&x);
