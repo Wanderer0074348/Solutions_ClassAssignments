@@ -1,4 +1,4 @@
-Important errors to look out for:
+Important things to look out for:
   #include<stdio.h>
   int main()
   {
@@ -11,3 +11,14 @@ Important errors to look out for:
        What is wrong in the code?
        1. for requires (;;) two semi colons in the code, which is not present
        2. for(i;;) causes an infinite loop
+  
+  
+  this for loop will execute till condition is met
+    for(i=0;i<3;i++);
+   
+  this loop will run infinite times
+    for(;;)
+  
+  printf first puts the output to the compiler then returns the number of characters 
+  
+    
