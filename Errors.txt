@@ -1,0 +1,13 @@
+Important errors to look out for:
+  #include<stdio.h>
+  int main()
+  {
+    int i =0;
+    for (i)
+    {
+      printf("Hello");
+    }
+  }
+       What is wrong in the code?
+       1. for requires (;;) two semi colons in the code, which is not present
+       2. for(i;;) causes an infinite loop
