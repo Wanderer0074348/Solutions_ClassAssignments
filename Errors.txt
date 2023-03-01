@@ -21,4 +21,6 @@ Important things to look out for:
   
   printf first puts the output to the compiler then returns the number of characters 
   
+  Unary minus operator is used twice. same maths rules apply, (minus*minus = positive)
+  ie. int c = - -3; ==> c = 3;
     
