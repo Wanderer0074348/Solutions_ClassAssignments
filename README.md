@@ -9,5 +9,9 @@ Solutions to all the class worksheets for computer programming in:
 ##### This is for everyones help, but do not force the author to give solutions, he will do so at his own pace 
 <br>
 
-![image](https://user-images.githubusercontent.com/83384365/222083036-30045730-9f80-4abe-b726-1c7415267034.png)
 
+<h3>Operator list in python</h3>
+![image](https://user-images.githubusercontent.com/83384365/222083036-30045730-9f80-4abe-b726-1c7415267034.png)
+<br>
+
+#### Ref: Geeks for Geeks
